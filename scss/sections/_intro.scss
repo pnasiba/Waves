@@ -47,7 +47,7 @@
                 cursor: pointer;
 
                 &:hover {
-                transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
                     background: $bg-secondary-color;
                 }
             }

@@ -124,6 +124,97 @@ header nav ul .nav__btn:hover {
   background: #BDB0EC;
 }
 
+footer {
+  background-image: url("../../assets/icons/Vector2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+footer .footer {
+  margin-top: 230px;
+  position: relative;
+  top: -160px;
+  left: -59px;
+  padding: 101px 224px;
+  background-origin: border-box;
+  background: center;
+  background-image: url("../../assets/images/footer-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1400px;
+}
+footer .footer h1 {
+  color: #F5F5F5;
+  margin-bottom: 38px;
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 76px;
+  letter-spacing: -5.5%;
+  text-align: center;
+}
+footer .footer button {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: -4%;
+  text-align: center;
+  padding: 20px 49px;
+  background-color: #8447E9;
+  color: #F5F5F5;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+}
+footer .footer button:hover {
+  background-color: #BDB0EC;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+footer .footer__wrapper {
+  border-bottom: 2px solid #BDB0EC;
+  padding: 0 0 140px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+footer .footer__wrapper--items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  align-items: center;
+}
+footer .footer__wrapper--items img {
+  width: 177px;
+}
+footer .footer__wrapper--items ul {
+  display: flex;
+  gap: 60px;
+}
+footer .footer__wrapper--items ul li {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #F5F5F5;
+  cursor: pointer;
+}
+footer .footer__wrapper--items ul li:hover {
+  color: #8447E9;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+footer .footer__wrapper--icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+footer .footer__wrapper--icons div {
+  display: flex;
+  gap: 24px;
+}
+footer .footer__wrapper--icons div img {
+  cursor: pointer;
+}
+
 .intro__wrapper {
   padding: 158px 0 100px 0;
   margin: 0 auto;
