@@ -462,3 +462,67 @@ header nav ul .nav__btn:hover {
   text-align: left;
   color: #0F0F0F;
 }
+
+.news {
+  padding: 88px 0;
+}
+.news h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: -4%;
+  text-align: left;
+  margin-bottom: 88px;
+  color: #0F0F0F;
+}
+.news__wrapper {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 88px;
+}
+.news__wrapper--cards img {
+  margin-bottom: 50px;
+}
+.news__wrapper--cards-title {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #8447E9;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -5%;
+  text-align: left;
+}
+.news__wrapper--cards-info {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #0F0F0F;
+  width: 411px;
+}
+.news button {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #8447E9;
+  padding: 20px 32px;
+  background: transparent;
+  color: #8447E9;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -5%;
+  text-align: left;
+}
+.news button i {
+  font-size: 18px;
+}
+.news button:hover {
+  background-color: #8447E9;
+  color: #F5F5F5;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}

@@ -1,73 +1,73 @@
-// .news {
-//     padding: 88px 0;
+.news {
+    padding: 88px 0;
 
-//     h1 {
-//         font-size: 40px;
-//         font-weight: 500;
-//         line-height: 49px;
-//         letter-spacing: -4%;
-//         text-align: left;
-//         margin-bottom: 88px;
-//         color: $primary-color;
-//     }
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 49px;
+        letter-spacing: -4%;
+        text-align: left;
+        margin-bottom: 88px;
+        color: $primary-color;
+    }
 
-//     &__wrapper {
-//         display: flex;
-//         gap: 25px;
-//         margin-bottom: 88px;
+    &__wrapper {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 88px;
 
-//         &--cards {
-//             img {
-//                 margin-bottom: 50px;
-//             }
+        &--cards {
+            img {
+                margin-bottom: 50px;
+            }
 
-//             &-title {
-//                 display: flex;
-//                 gap: 10px;
-//                 margin-bottom: 20px;
-//                 color: $bg-primary-color;
-//                 font-size: 16px;
-//                 font-weight: 500;
-//                 line-height: 20px;
-//                 letter-spacing: -5%;
-//                 text-align: left;
-//             }
+            &-title {
+                display: flex;
+                gap: 10px;
+                margin-bottom: 20px;
+                color: $bg-primary-color;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: -5%;
+                text-align: left;
+            }
 
-//             &-info {
-//                 font-size: 24px;
-//                 font-weight: 500;
-//                 line-height: 29px;
-//                 letter-spacing: 0%;
-//                 text-align: left;
-//                 color: $primary-color;
-//                 width: 411px;
-//             }
-//         }
-//     }
+            &-info {
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 29px;
+                letter-spacing: 0%;
+                text-align: left;
+                color: $primary-color;
+                width: 411px;
+            }
+        }
+    }
 
-//     button {
-//         display: flex;
-//         gap: 13px;
-//         align-items: center;
-//         box-sizing: border-box;
-//         border: 1px solid $bg-primary-color;
-//         padding: 20px 32px;
-//         background: transparent;
-//         color: $bg-primary-color;
-//         font-size: 16px;
-//         font-weight: 500;
-//         line-height: 20px;
-//         letter-spacing: -5%;
-//         text-align: left;
+    button {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+        box-sizing: border-box;
+        border: 1px solid $bg-primary-color;
+        padding: 20px 32px;
+        background: transparent;
+        color: $bg-primary-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -5%;
+        text-align: left;
 
-//         i{
-//             font-size: 18px;
-//         }
+        i{
+            font-size: 18px;
+        }
 
-//         &:hover{
-//             background-color: $bg-primary-color;
-//             color: $color-white;
-//             transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-//         }
-//     }
-// }
+        &:hover{
+            background-color: $bg-primary-color;
+            color: $color-white;
+            transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+    }
+}
