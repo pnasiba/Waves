@@ -305,3 +305,88 @@ header nav ul .nav__btn:hover {
 .service__wrapper button img {
   color: #8447E9;
 }
+
+.project {
+  background: #8447E9;
+  padding: 140px 0;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+.project .info {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 7.5%;
+  text-align: left;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  margin-bottom: 24px;
+}
+.project h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: -4%;
+  text-align: left;
+  width: 930px;
+  color: #F5F5F5;
+  margin-bottom: 91px;
+}
+.project__wrapper {
+  padding-bottom: 24px !important;
+}
+.project__wrapper--cards {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 64px;
+}
+.project__wrapper--cards-box img {
+  width: 522px;
+  height: 341px;
+  margin-bottom: 32px;
+}
+.project__wrapper--cards-box_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project__wrapper--cards-box_info h2 {
+  color: #F5F5F5;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.project__wrapper--cards-box_info p {
+  color: #BDB0EC;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.project button {
+  padding: 20px 32px 20px 32px !important;
+  box-sizing: border-box;
+  border: 1px solid #F5F5F5;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -5%;
+  color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.project button i {
+  font-size: 18px;
+}
+.project button:hover {
+  background-color: #F5F5F5;
+  color: #8447E9;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
