@@ -183,3 +183,28 @@ header nav ul .nav__btn:hover {
   padding: 0 10px;
   color: #0F0F0F;
 }
+
+.brand__wrapper {
+  padding: 88px 0;
+}
+.brand__wrapper h1 {
+  width: 790px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: -4%;
+  margin: 0 auto;
+  text-align: center;
+  color: #0F0F0F;
+  margin-bottom: 80px;
+}
+.brand__wrapper marquee {
+  gap: 20px;
+}
+.brand__wrapper marquee img {
+  box-sizing: border-box;
+  border: 1px solid #a1aebf;
+  border-radius: 10px;
+  padding: 16px 24px;
+  margin: 10px;
+}
