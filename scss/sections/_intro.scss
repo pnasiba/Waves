@@ -1,0 +1,68 @@
+// .intro {
+//     &__wrapper {
+//         padding: 158px 0 100px 0;
+//         margin: 0 auto;
+//         width: 608px;
+
+//         h1 {
+//             margin: 0 auto;
+//             font-size: 62px;
+//             font-weight: 600;
+//             line-height: 76px;
+//             letter-spacing: -5.5%;
+//             text-align: center;
+//             width: 608px;
+
+//             span {
+//                 color: $bg-primary-color;
+//             }
+//         }
+
+//         &-info {
+//             display: flex;
+//             justify-content: space-evenly;
+//             position: relative;
+//             right: -65px;
+//             top: -4px;
+//             margin-bottom: 75px;
+//         }
+
+//         &--btn {
+//             display: flex;
+//             padding: 0 77px;
+//             justify-content: space-between;
+
+//             button {
+//                 display: flex;
+//                 align-items: center;
+//                 padding: 20px 32px;
+//                 background: $bg-primary-color;
+//                 font-size: 16px;
+//                 font-weight: 500;
+//                 line-height: 20px;
+//                 letter-spacing: -5%;
+//                 color: $color-white;
+//                 border: none;
+//                 gap: 13px;
+//                 cursor: pointer;
+
+//                 &:hover {
+//                 transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+//                     background: $bg-secondary-color;
+//                 }
+//             }
+
+//             a {
+//                 font-size: 12px;
+//                 font-weight: 500;
+//                 line-height: 15px;
+//                 letter-spacing: 0%;
+//                 display: flex;
+//                 gap: 13px;
+//                 align-items: center;
+//                 padding: 0 10px;
+//                 color: $primary-color;
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,96 @@
+// .project {
+//     background: $bg-primary-color;
+//     padding: 140px 0;
+//     margin: 0 auto;
+//     justify-content: center;
+//     display: flex;
+
+//     .info {
+//         font-size: 16px;
+//         font-weight: 600;
+//         line-height: 20px;
+//         letter-spacing: 7.5%;
+//         text-align: left;
+//         text-transform: uppercase;
+//         color: $color-white;
+//         margin-bottom: 24px;
+//     }
+
+//     h1 {
+//         font-size: 40px;
+//         font-weight: 500;
+//         line-height: 49px;
+//         letter-spacing: -4%;
+//         text-align: left;
+//         width: 930px;
+//         color: $color-white;
+//         margin-bottom: 91px;
+//     }
+
+//     &__wrapper {
+//         padding-bottom: 24px !important;
+
+//         &--cards {
+//             display: flex;
+//             gap: 34px;
+//             margin-bottom: 64px;
+
+//             &-box {
+//                 img {
+//                     width: 522px;
+//                     height: 341px;
+//                     margin-bottom: 32px;
+//                 }
+
+//                 &_info {
+//                     display: flex;
+//                     justify-content: space-between;
+
+//                     h2 {
+//                         color: $color-white;
+//                         font-size: 32px;
+//                         font-weight: 600;
+//                         line-height: 39px;
+//                         letter-spacing: 0%;
+//                         text-align: left;
+//                     }
+
+//                     p {
+//                         color: $bg-secondary-color;
+//                         font-size: 16px;
+//                         font-weight: 600;
+//                         line-height: 20px;
+//                         letter-spacing: 0%;
+//                         text-align: left;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     button {
+//         padding: 20px 32px 20px 32px !important;
+//         box-sizing: border-box;
+//         border: 1px solid $color-white;
+//         background: transparent;
+//         font-size: 16px;
+//         font-weight: 500;
+//         line-height: 20px;
+//         letter-spacing: -5%;
+//         color: $color-white;
+//         display: flex;
+//         align-items: center;
+//         gap: 8px;
+//         cursor: pointer;
+
+//         i {
+//             font-size: 18px;
+//         }
+
+//         &:hover {
+//             background-color: $color-white;
+//             color: $bg-primary-color;
+//             transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+//         }
+//     }
+// }
