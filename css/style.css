@@ -88,9 +88,16 @@ ul {
   padding: 0 10px;
 }
 
+.container-fluid {
+  max-width: 1077px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 header {
   width: 100%;
   position: relative;
+  margin-bottom: 92px;
 }
 header nav {
   width: 100%;
@@ -211,7 +218,7 @@ footer .footer__wrapper--items ul {
   display: flex;
   gap: 60px;
 }
-footer .footer__wrapper--items ul li {
+footer .footer__wrapper--items ul li a {
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
@@ -220,7 +227,7 @@ footer .footer__wrapper--items ul li {
   color: #F5F5F5;
   cursor: pointer;
 }
-footer .footer__wrapper--items ul li:hover {
+footer .footer__wrapper--items ul li a:hover {
   color: #8447E9;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -643,4 +650,74 @@ footer .footer__wrapper--icons div img {
   background-color: #8447E9;
   color: #F5F5F5;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.services {
+  background-color: #E1DBF6;
+}
+.services__wrapper {
+  padding: 88px 0;
+}
+.services__wrapper p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 7.5%;
+  text-align: left;
+  text-transform: uppercase;
+  color: #8447E9;
+  margin-bottom: 40px;
+}
+.services__wrapper h1 {
+  width: 845px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: -4%;
+  text-align: left;
+  color: #0F0F0F;
+}
+
+.type__services {
+  padding: 88px 0;
+}
+.type__services--items {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.type__services--items-info h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: -1.5%;
+  color: #8447E9;
+  margin-bottom: 40px;
+}
+.type__services--items-info .title {
+  width: 550px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 141.9%;
+  letter-spacing: -3%;
+  text-align: left;
+  color: #0F0F0F;
+  margin-bottom: 30px;
+}
+.type__services--items-info_desc {
+  display: flex;
+  gap: 24px;
+}
+.type__services--items-info_desc--smth div {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+.type__services--items-info_desc--smth div p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -5%;
+  text-align: left;
+  color: #8447E9;
 }
