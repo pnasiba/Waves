@@ -1,42 +1,67 @@
 header {
-  nav {
-    display: flex;
-    align-items: center;
-    padding: 24px 0;
-    justify-content: space-between;
+  width: 100%;
+  position: relative;
 
-    ul {
+  nav {
+    width: 100%;
+    top: 0;
+    right: 0;
+    backdrop-filter: blur(700px);
+    position: fixed;
+    z-index: 99999999;
+    
+    .header__wrapper{
       display: flex;
       align-items: center;
-      cursor: pointer;
-      font-weight: 500;
-      line-height: 20px;
+      padding: 24px 0;
+      gap: 330px;
 
-      &:nth-child(2) {
-        gap: 60px;
-
-        :hover {
-          color: $bg-primary-color;
-          transition: all .2s linear;
+      justify-content: center;
+      ul {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          font-weight: 500;
+          line-height: 20px;
+      
+          &:nth-child(2) {
+            gap: 60px;
+      
+            :hover {
+              color: $bg-primary-color;
+              transition: all .2s linear;
+            }
+      
+            li {
+              a {
+                color: $primary-color;
+              }
+            }
+          }
+      
+          .nav__btn {
+            display: flex;
+            padding: 12px 24px;
+            gap: 13px;
+            border: none;
+            outline: none !important;
+            box-shadow: none !important;
+            background: $bg-primary-color;
+            color: $color-white;
+            cursor: pointer;
+      
+            a {
+              color: $color-white;
+              font-weight: 500;
+              line-height: 20px;
+            }
+      
+            &:hover {
+              transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+              background: $bg-secondary-color;
+            }
+          }
         }
-      }
-
-      .nav__btn {
-        display: flex;
-        padding: 12px 24px;
-        gap: 13px;
-        border: none;
-        outline: none !important;
-        box-shadow: none !important;
-        background: $bg-primary-color;
-        color: $color-white;
-        cursor: pointer;
-
-        &:hover {
-          transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
-          background: $bg-secondary-color;
-        }
-      }
     }
   }
 }

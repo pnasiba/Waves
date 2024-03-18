@@ -88,27 +88,44 @@ ul {
   padding: 0 10px;
 }
 
+header {
+  width: 100%;
+  position: relative;
+}
 header nav {
+  width: 100%;
+  top: 0;
+  right: 0;
+  -webkit-backdrop-filter: blur(700px);
+          backdrop-filter: blur(700px);
+  position: fixed;
+  z-index: 99999999;
+}
+header nav .header__wrapper {
   display: flex;
   align-items: center;
   padding: 24px 0;
-  justify-content: space-between;
+  gap: 330px;
+  justify-content: center;
 }
-header nav ul {
+header nav .header__wrapper ul {
   display: flex;
   align-items: center;
   cursor: pointer;
   font-weight: 500;
   line-height: 20px;
 }
-header nav ul:nth-child(2) {
+header nav .header__wrapper ul:nth-child(2) {
   gap: 60px;
 }
-header nav ul:nth-child(2) :hover {
+header nav .header__wrapper ul:nth-child(2) :hover {
   color: #8447E9;
   transition: all 0.2s linear;
 }
-header nav ul .nav__btn {
+header nav .header__wrapper ul:nth-child(2) li a {
+  color: #0F0F0F;
+}
+header nav .header__wrapper ul .nav__btn {
   display: flex;
   padding: 12px 24px;
   gap: 13px;
@@ -119,7 +136,12 @@ header nav ul .nav__btn {
   color: #F5F5F5;
   cursor: pointer;
 }
-header nav ul .nav__btn:hover {
+header nav .header__wrapper ul .nav__btn a {
+  color: #F5F5F5;
+  font-weight: 500;
+  line-height: 20px;
+}
+header nav .header__wrapper ul .nav__btn:hover {
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   background: #BDB0EC;
 }
@@ -374,21 +396,26 @@ footer .footer__wrapper--icons div img {
   box-sizing: border-box;
   border: 1px solid #8447E9;
   background: transparent;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: -5%;
-  color: #8447E9;
   display: flex;
   align-items: center;
   gap: 8px;
   margin: 310px 0 0 420px;
   cursor: pointer;
 }
+.service__wrapper button a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -5%;
+  color: #8447E9;
+}
 .service__wrapper button:hover {
   background: #8447E9;
   color: white;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.service__wrapper button:hover a {
+  color: #F5F5F5;
 }
 .service__wrapper button:hover img {
   filter: brightness(0) invert(1);
